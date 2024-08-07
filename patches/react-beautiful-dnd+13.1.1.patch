@@ -1,0 +1,21 @@
+diff --git a/node_modules/react-beautiful-dnd/dist/react-beautiful-dnd.esm.js b/node_modules/react-beautiful-dnd/dist/react-beautiful-dnd.esm.js
+index ecced69..b4e9c23 100644
+--- a/node_modules/react-beautiful-dnd/dist/react-beautiful-dnd.esm.js
++++ b/node_modules/react-beautiful-dnd/dist/react-beautiful-dnd.esm.js
+@@ -8504,11 +8504,16 @@ var defaultProps = {
+   renderClone: null,
+   getContainerForClone: getBody
+ };
++function Droppable({ isDropDisabled = false, direction = 'vertical', ...props }) {
++  // component implementation
++}
++
+ var ConnectedDroppable = connect(makeMapStateToProps$1, mapDispatchToProps$1, null, {
+   context: StoreContext,
+   pure: true,
+   areStatePropsEqual: isStrictEqual
+ })(Droppable);
++
+ ConnectedDroppable.defaultProps = defaultProps;
+ 
+ export { DragDropContext, PublicDraggable as Draggable, ConnectedDroppable as Droppable, resetServerContext, useKeyboardSensor, useMouseSensor, useTouchSensor };
