@@ -23,6 +23,7 @@
      ⨯ ./node_modules/react-beautiful-dnd/dist/react-beautiful-dnd.esm.js
     Module parse failed: Identifier 'Droppable' has already been declared (8507:9)
 
-lütfen projeyi durdurup 'react-beautiful-dnd' kütüphanesini silip tekrar yükleyin ;
+lütfen projeyi durdurup 'react-beautiful-dnd' kütüphanesini silip tekrar yükleyin;
+
  `npm uninstall react-beautiful-dnd`
   `npm install react-beautiful-dnd`
