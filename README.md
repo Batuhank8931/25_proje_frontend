@@ -11,8 +11,12 @@
 - Sunucuyu ayağa kaldırmak için(*):
   `npm run dev`
 
-  sunucu çalışırken [http://localhost:3000] adresinde çalışacaktır.
-  giriş yapmak için  [http://localhost:3000/login] adresinde gitmelisiniz.
+  sunucu çalışırken [http://localhost:3000/](http://localhost:3000/) adresinde çalışacaktır.
+
+  giriş yapmak için [http://localhost:3000/login](http://localhost:3000/login) adresinde gitmelisiniz.
+  
+  yeni kullanıcı oluşturmak için [http://localhost:3000/register](http://localhost:3000/register) adresinde gitmelisiniz.
+  
 
 (*) çalıştırırken şöyle bir hata alırsanız;
 
