@@ -25,5 +25,5 @@
 
 lütfen projeyi durdurup 'react-beautiful-dnd' kütüphanesini silip tekrar yükleyin;
 
- `npm uninstall react-beautiful-dnd`
-  `npm install react-beautiful-dnd`
+   `npm uninstall react-beautiful-dnd`
+    `npm install react-beautiful-dnd`
